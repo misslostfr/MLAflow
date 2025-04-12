@@ -1,4 +1,4 @@
-# MLAFlow
+# MLAflow
 
 <p align="center">
   <img src="图片9.png" alt="MLAutoFlow Logo" width="450"/>
@@ -6,7 +6,7 @@
 
 ## 🚀 项目简介
 
-**MLAFlow** 是一款基于人工智能架构开发的、无监督的单细胞 RNA 测序全流程自动处理系统。  
+**MLAflow** 是一款基于人工智能架构开发的、无监督的单细胞 RNA 测序全流程自动处理系统。  
 通过集成 **贝叶斯优化（Bayesian Optimization）**、**Optuna-TPE**、**CMA-ES** 等高效超参数优化算法，  
 实现从数据导入到聚类结果输出的全流程自动化与智能化。
 
