@@ -60,3 +60,9 @@
 
 ```bash
 pip install scanpy optuna cma umap-learn
+
+---
+
+## 🤝 合作者
+
+本项目由 guxiao2005 与 like-lkr 合作开发完成。
