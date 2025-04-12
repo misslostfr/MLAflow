@@ -1,4 +1,4 @@
-# MLAutoFlow
+# MLAFlow
 
 <p align="center">
   <img src="图片9.png" alt="MLAutoFlow Logo" width="450"/>
@@ -6,7 +6,7 @@
 
 ## 🚀 项目简介
 
-**MLAutoFlow** 是一款基于人工智能架构开发的、无监督的单细胞 RNA 测序全流程自动处理系统。  
+**MLAFlow** 是一款基于人工智能架构开发的、无监督的单细胞 RNA 测序全流程自动处理系统。  
 通过集成 **贝叶斯优化（Bayesian Optimization）**、**Optuna-TPE**、**CMA-ES** 等高效超参数优化算法，  
 实现从数据导入到聚类结果输出的全流程自动化与智能化。
 
@@ -60,9 +60,24 @@
 
 ```bash
 pip install scanpy optuna cma umap-learn
+```
+
+---
+
+## 🔍 未来展望
+
+- ✅ 拓展对空间转录组（Spatial Transcriptomics）的支持；
+- ✅ 引入 Transformer 模型进行表达数据的深层次表示学习；
+- ✅ 增强可视化界面交互能力，打造无代码图形化分析平台；
 
 ---
 
 ## 🤝 合作者
 
-本项目由 guxiao2005 与 like-lkr 合作开发完成。
+| 贡献者 | GitHub 主页 |
+|--------|-------------|
+| guxiao2005 | [@guxiao2005](https://github.com/guxiao2005) |
+| like-lkr   | [@like-lkr](https://github.com/like-lkr) |
+
+---
+"""
