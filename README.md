@@ -62,9 +62,22 @@
 pip install scanpy optuna cma umap-learn
 ```
 
+```bash
+pip install mlaflow
+```
+## 🔍 使用方法
+使用 MLAflow
+在 Python 环境中导入 MLAflow 并使用 autoprocess 方法处理单细胞数据：
+```python
+import mlaflow
+# 直接处理数据，指定数据文件路径
+adata = mlaflow.autoprocess('path_to_your_data_file')
+```
+其中，path_to_your_data_file 为您数据文件的路径，可以是 .h5ad, .csv 等支持的格式。
+
 ---
 
-## 🔍 未来展望
+## 🔮 未来展望
 
 - ✅ 拓展对空间转录组（Spatial Transcriptomics）的支持；
 - ✅ 引入 Transformer 模型进行表达数据的深层次表示学习；
