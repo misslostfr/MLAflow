@@ -1,7 +1,7 @@
 # MLAflow
 
 <p align="center">
-  <img src="图片9.png" alt="MLAutoFlow Logo" width="450"/>
+  <img src="Logo.jpg" alt="MLAutoFlow Logo" width="450"/>
 </p>
 
 ## 🚀 项目简介
