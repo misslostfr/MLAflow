@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+   #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import os
@@ -344,9 +344,9 @@ def optimize_umap_parameters(adata, initial_n_neighbors=15, initial_min_dist=0.1
 # -------------------------------
 # 主流程入口
 # -------------------------------
-def main():
+def autoprocess(h5_file_path):
     # 若有 h5 文件，请将文件路径传入此处，例如 "data/my_data.h5ad"
-    h5_file_path = 'GSE174367_snRNA-seq_filtered_feature_bc_matrix.h5'
+    
     
     # 可选：对于特别大的数据集，设置 use_backed=True 使用磁盘映射模式
     adata = load_data(h5_file_path, use_backed=False)
@@ -393,6 +393,4 @@ def main():
     
     # 可视化 UMAP 结果，根据 Leiden 聚类上色
     sc.pl.umap(adata_final, color=["leiden"], title="UMAP - Leiden 聚类结果", show=True)
-
-if __name__ == "__main__":
-    main()
+    return adata_final
